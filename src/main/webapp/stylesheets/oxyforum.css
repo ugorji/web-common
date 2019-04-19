@@ -1,0 +1,151 @@
+
+.oxyforum-expand-plus, 
+.oxyforum-expand-plus A:link, 
+.oxyforum-expand-plus A:visited, 
+.oxyforum-expand-plus A:active  {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.oxyforum-parentrow {
+  background-color: #e5ecf9;
+}
+
+.oxyforum-body {
+    margin: 4px;
+    padding: 4px;
+    font-family: Verdana, arial, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: normal;
+}
+
+.oxyforum-lineage {
+  border-top: solid #D1D7DC 1px; 
+  border-bottom: solid #D1D7DC 1px;   
+}
+
+.oxyforum-post-in-table-details {
+  background-color: #f1f1f1;
+}
+
+.oxyforum-post-in-table-all {
+  background-color: #fbfbfb;
+}
+
+/* 
+  ****************************************************************
+   USED FOR TOPIC.HTML. 
+   THESE ARE NOT TO BE OVERRIDEN
+  **************************************************************** 
+*/
+.oxyforum-post-in-table-all {
+  /* border: 1px solid #c0c0c0; */  
+}
+
+.oxyforum-post-in-table-top A:hover {
+  color: #bb0000;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.oxyforum-post-in-table-top-subject {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.oxyforum-post-in-table-top, .oxyforum-post-in-table-top A {
+  /* background-color: #7994b5; color: #ffffff; font-weight: bold; text-decoration: none; */
+  background-color: #e5ecf9; 
+  text-decoration: none; 
+  border-bottom: 1px solid gray;
+}
+
+.oxyforum-post-in-table-signature {
+  border-top: 1px dotted #003366;
+}
+
+.oxyforum-post-in-table-bottom {
+  border-top: 1px dotted #003366;
+  clear: both;
+}
+
+.oxyforum-post-in-table-avatar {
+  float:left;
+  margin: 0;
+  padding: 1em;
+}
+
+div.oxyforum-post-in-table-avatar p {
+  margin-top: 0;
+  clear: both;
+}
+
+.oxyforum-post-in-table-details {
+  margin-left: 200px;
+  border-left: 1px solid gray;
+  padding: 1em;
+}
+
+/* 
+  ****************************************************************
+    THESE ARE NOT TO BE OVERRIDEN
+  **************************************************************** 
+*/
+.oxyforum-col-primary {
+  width: 100%;
+}
+
+div.oxyforum-form-table table, div.oxyforum-form-table tr, div.oxyforum-form-table td {
+  border: 0px;
+}
+
+div.oxyforum-topic-thread-tree-table tr, div.oxyforum-topic-thread-tree-table td {
+  border: 0px; 
+  padding: 0px 10px 0px 10px;
+  /* spacing: 5px 5px 5px 5px; */
+}
+
+.oxyforum-align-right {
+  float:right;
+  text-align:right;
+  /* clear:right; */
+  /* WIDTH: 40%; */
+}
+
+.oxyforum-align-left {
+  float:left;
+  text-align:left;
+}
+
+.oxyforum-align-center {
+  text-align:center;
+  float:none;
+}
+
+/* 
+  ****************************************************************
+    THESE ARE NO LONGER USED 
+  **************************************************************** 
+*/
+.oxyforum-row-0 {
+  background-color: #ffffff;  
+}
+
+.oxyforum-row-1 {
+  background-color: #f6f6f6;
+}
+
+.oxyforum-light-hr {
+  /* align: left; */
+  height: 0px; 
+  border: solid #D1D7DC 0px; 
+  border-top-width: 1px; 
+  width: 75%;
+}
+
+.oxyforum-smalltext {
+  font-size: 10px;
+}
+

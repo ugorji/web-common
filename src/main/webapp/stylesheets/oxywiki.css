@@ -1,0 +1,52 @@
+
+div#oxywiki_view3navwrap {
+    background-color: #eeeeee; 
+}
+
+div.oxywiki_view3navwrap {
+  background-color: #fff5e8;   
+}
+
+.wikinonexistentpage {
+  color: #FF0000;
+  text-decoration: none;
+  border-bottom: 1px dashed red;
+}
+
+.wikiexternallink {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px dashed black;
+}
+
+.wikicalendartitle, .wikicalendardate {
+  font-size: 24px;
+  margin: 36px 0px 4px 0px;
+  line-height: normal;
+  font-weight: bold;
+  padding: 2px;
+  border: 1px solid #909090; 
+  font-weight: normal;
+}
+
+.wikicalendartitle {
+  font-size: 16px;
+  margin: 24px 0px 4px 0px;  
+}
+
+.wikitoc, .wikireview {
+    border: 1px solid #909090;
+    padding: 5px 5px 5px 7px;
+    background: #f0fff0;
+}
+
+.wikireview {
+    background-color: #fff5e8; 
+}
+
+.wikiheadertoplink {
+  float:right; 
+  font-weight: normal;
+  text-align: right;
+}
+

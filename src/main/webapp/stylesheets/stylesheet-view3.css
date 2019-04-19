@@ -1,0 +1,24 @@
+/* ----------------------------------------------------------------- */
+/* VIEW3NAV AREA */
+/* ----------------------------------------------------------------- */
+
+ul#oxywiki_view3nav { height:28px; margin:0; padding:0; }
+ul#oxywiki_view3nav { list-style: none; padding: 0 0 0 15px; margin: 0; font: 11px "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif; }
+#oxywiki_view3nav li { float: left; position: relative; height:28px; text-align: left; width: 160px;  }
+/* not applied by IE Mac or PC \*/
+html>body #oxywiki_view3nav li { width:auto; }
+/* End hack */
+#oxywiki_view3nav a { display: block; height:28px; padding:0 15px; line-height:28px; color: #2D5879; text-decoration: none; border-bottom:none; border-right:1px solid #B9C3C8; }
+#oxywiki_view3nav li a:hover { background-color:#2D5879; color:#fff; }
+#oxywiki_view3nav li ul { display: none; width:160px; list-style: none; position: absolute; top: 100%; left:0; font-weight: normal; background-color:#fff; border:1px solid #B9C3C8; border-bottom:none; padding:0; margin:0;}
+#oxywiki_view3nav li>ul { top: auto; left: auto; }
+#oxywiki_view3nav li li { display: block; width:160px; text-align: left; float: none; height: auto; line-height:1.6em; background-color: transparent; border-bottom:1px solid #B9C3C8; }
+#oxywiki_view3nav li li a { display: block; width:160px; padding:4px 10px; font-weight: normal; color: #2D5879; line-height:20px; height: auto;}
+/* not applied by IE Mac or PC \*/
+html>body #oxywiki_view3nav li li a { width:140px; }
+/* End hack */
+#oxywiki_view3nav li li a:hover { background-color:#2D5879; background-image:none; color:#fff; }
+#oxywiki_view3nav li:hover ul, #oxywiki_view3nav li.over ul { display: block; }
+
+/* div#oxywiki_view3navwrap { width:100%; } */
+

@@ -1,0 +1,19 @@
+plugins {
+    id 'base'
+}
+
+// task done {
+//     dependsOn war
+//     doLast {
+//         mkdir "$buildDir/done"
+//     }
+// }
+
+// sourceSets {
+//     main {
+//         output.dir("$buildDir/done", builtBy: done)
+//     }
+// }
+
+//jar.enabled = false
+//war.dependsOn done
